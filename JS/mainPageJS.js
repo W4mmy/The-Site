@@ -6,7 +6,7 @@ function goBlog() {
     window.location.href = "Blog/blogs";
 }
 
-function paren_goHome() {
+function parent_goHome() {
     window.location.href = "index"
 }
 
