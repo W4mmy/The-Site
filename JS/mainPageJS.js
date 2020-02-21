@@ -3,7 +3,7 @@ function goHome() {
 }
 
 function goBlog() {
-    window.location.href = "Blog/blogs";
+    window.location.href = "blog";
 }
 
 function parent_goHome() {
@@ -11,7 +11,7 @@ function parent_goHome() {
 }
 
 function parent_goBlog() {
-    window.location.href = "../Blog/blogs"
+    window.location.href = "../blog"
 }
 
     
