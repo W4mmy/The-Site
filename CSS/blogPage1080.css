@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'afterglow';
+    src: url('fonts/afterglow-regular-webfont.woff2') format('woff2'),
+         url('fonts/afterglow-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'besleybook';
+    src: url('fonts/besley-book-webfont.woff2') format('woff2'),
+         url('fonts/besley-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'tekomedium';
+    src: url('fonts/teko-medium-webfont.woff2') format('woff2'),
+         url('fonts/teko-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(227, 238, 241);
+}
+
+.headerTitle {
+    background-color: rgb(13, 33, 43);
+    width: 100%;
+    height: 15%;
+    border: 1px dashed transparent;
+    padding: 0;
+    align-content: center;
+}
+
+.titleHome {
+    width: 55%;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+}
+
+.mainTitle {
+    color: rgba(228, 228, 228, 0.932);
+    font-size: 4.8em;
+    line-height: 0;
+    font-family: 'tekomedium';
+    text-align: center;
+}
+
+.navBar {
+    text-align: left;
+    margin-left: 7%;
+    width: 55%;
+    margin-bottom: .8em;
+}
+
+button {
+    outline: none;
+    letter-spacing: .1em;
+}
+
+.button_homePage {
+    font-size: 1.1em;
+    color: rgba(240, 240, 240, 0.65);
+    background-color: rgb(13, 33, 43);
+    margin-bottom: .3%;
+    height: 2.3rem;
+    border: 1px solid transparent;
+    border-radius: .3em;
+    transition: .2s;
+    -webkit-transition: .2s;
+    cursor: pointer;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.button_homePage:hover {
+    color: rgba(245, 245, 245, 0.993);
+    background-color: rgb(10, 26, 34);
+}
+
+.button_Blog {
+    font-size: 1.1em;
+    color: rgba(240, 240, 240, 0.65);
+    background-color: rgb(13, 33, 43);
+    margin-bottom: .3%;
+    height: 2.3rem;
+    border: 1px solid transparent;
+    border-radius: .3em;
+    transition: .2s;
+    -webkit-transition: .2s;
+    margin-left: 0.4em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    cursor: pointer;
+}
+
+.button_Blog:hover {
+    color: rgba(245, 245, 245, 0.993);
+    background-color: rgb(10, 26, 34);
+}
+
+.button_Contact {
+    font-size: 1.1em;
+    color: rgba(240, 240, 240, 0.65);
+    background-color: rgb(13, 33, 43);
+    margin-bottom: .3%;
+    height: 2.3rem;
+    border: 1px solid transparent;
+    border-radius: .3em;
+    transition: .2s;
+    -webkit-transition: .2s;
+    margin-left: 0.4em;
+    cursor: pointer;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.button_Contact:hover {
+    color: rgba(245, 245, 245, 0.993);
+    background-color: rgb(10, 26, 34);
+}
