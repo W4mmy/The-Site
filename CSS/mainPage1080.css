@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'afterglow';
+    src: url('fonts/afterglow-regular-webfont.woff2') format('woff2'),
+         url('fonts/afterglow-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'besleybook';
+    src: url('fonts/besley-book-webfont.woff2') format('woff2'),
+         url('fonts/besley-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'tekomedium';
+    src: url('fonts/teko-medium-webfont.woff2') format('woff2'),
+         url('fonts/teko-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(213, 228, 233);
+}
+
+.headerTitle {
+    margin-left: 40%;
+    width: 20%;
+    height: 15%;
+    border: 1px dashed transparent;
+    padding: 0;
+}
+
+.mainTitle {
+    font-size: 3em;
+    line-height: 0;
+    font-family: 'tekomedium';
+    text-align: center;
+}
+
+
