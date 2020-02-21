@@ -1,0 +1,1 @@
+https://wammy.netlify.com/* https://www.wammyip.com/:splat 301!
