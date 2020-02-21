@@ -7,7 +7,7 @@ function goBlog() {
 }
 
 function parent_goHome() {
-    window.location.href = "index"
+    window.location.href = "../index"
 }
 
 function parent_goBlog() {
