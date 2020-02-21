@@ -127,3 +127,8 @@ button {
     color: rgba(245, 245, 245, 0.993);
     background-color: rgb(10, 26, 34);
 }
+
+.dropdown-triangle {
+    display: none
+}
+

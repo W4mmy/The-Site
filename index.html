@@ -2,7 +2,8 @@
 <html>
     <head>
         <title>Wammy Intellectual</title>
-        <link rel="stylesheet" href="CSS/mainPage1080.css" type="text/css">
+        <link rel="stylesheet" media="screen and (min-width: 769px)" href="CSS/mainPage1080.css" type="text/css">
+        <link rel="stylesheet" media="screen and (max-width: 768px)" href="CSS/mainPageMobile.css" type="text/css">
         <script src="JS/mainPageJS.js"></script>
     </head>
     <body>
@@ -10,7 +11,11 @@
             <div class="titleHome">
                 <p class="mainTitle">Wammy IP</p>
             </div>
-            <div class="navBar">
+            <div class="dropdown-menu">
+                <img src="images/dropdown_triangle.png" class="dropdown-triangle"
+                    id="dropdown_triangle" onclick="display(); rotate()";>
+            </div>
+            <div class="navBar" id="nav_Bar">
                 <button class="button_homePage" onclick="">Home</button>
                 <button class="button_Blog" onclick="goBlog()">Blog</button>
                 <button class="button_Contact" onclick="goContact()">Contact</button>
