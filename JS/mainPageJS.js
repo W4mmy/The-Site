@@ -6,6 +6,10 @@ function goBlog() {
     window.location.href = "blog";
 }
 
+// function goContact() {
+//     window.location.href = "contact"
+// }
+
 function parent_goHome() {
     window.location.href = "../index"
 }
@@ -14,7 +18,9 @@ function parent_goBlog() {
     window.location.href = "../blog"
 }
 
-    
+// function parent_goContact() {
+//    window.location.href = "../contact"
+// }   
     
 function display() {
     var navBar = document.getElementById("nav_Bar")

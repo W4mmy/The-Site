@@ -26,7 +26,7 @@
 body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow-x: hidden;
     background-color: rgb(227, 238, 241);
 }
 
@@ -101,4 +101,78 @@ button {
 
 #dropdown_triangle {
     transform: rotate(0deg);
+}
+
+.logo {
+    display: none;
+}
+
+.mainBody {
+    margin-top: 10%;
+    width: 90%;
+    margin-left: 5%;
+    background-color: rgba(195, 218, 214, 0.932);
+    box-shadow: 3px 3px 5px 1px black;
+    margin-bottom: 3%;
+}
+
+.ProfilePic {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.PicMe {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.aboutMeBlock {
+    border: 1px dashed transparent;
+}
+
+.aboutTitle {
+    border: 1px dashed transparent;
+}
+
+.meName {
+    font-family: 'besleybook';
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 0.5em;
+}
+
+.meSub {
+    font-family: 'afterglow';
+    font-size: 1.8em;
+    line-height: .2em;
+    margin-top: 1.6em;
+    color: rgba(13, 35, 41, 0.829);
+    text-align: center;
+}
+
+.meSub2 {
+    font-family: 'afterglow';
+    font-size: 1.8em;
+    line-height: .2em;
+    text-align: center;
+    margin-left: 14%;
+    color: rgba(13, 35, 41, 0.829);
+}
+
+.descriptionMe {
+    border: 1px dashed transparent;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.allAboutMe {
+    text-indent: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+
+.allAboutMe-Sub {
+    font-family: 'afterglow';
+    font-size: 1.2em;
+    text-align: center;
 }
