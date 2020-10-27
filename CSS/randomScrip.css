@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(44, 48, 45);
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.header {
+    border: 2px dashed transparent;
+    background-color: rgb(63, 128, 128);
+    height: 65px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.mainBody {
+    border: 2px dashed black;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    height: 500px;
+}
+
+.title {
+    color: rgb(182, 228, 228);
+    text-align: center;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.button-div {
+    margin: 0;
+    position: absolute;
+    left: 45.5%;
+    top: 28%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.button {
+    background-color: rgb(44, 48, 45);
+    border: none;
+    font-size: 24px;
+    color: rgb(168, 230, 255);
+    padding: 15px 20px;
+    transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+}
+
+.button:hover {
+    background-color:  rgba(121, 121, 121, 0.726);
+    box-shadow: 2px 2px 5px black;
+    color: rgb(98, 255, 255);
+}
+
+.button:focus {
+    outline: none;
+}
+
+.scripture {
+    background-color: rgb(63, 128, 128);
+    box-shadow: 2px 2px 5px black;
+    border: 1px dashed transparent;
+    border-radius: 3px;
+    height: 40px;
+    width: 150px;
+    margin: auto;
+    position: absolute;
+    left: 45.6%;
+    top: 40%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.randomScripture {
+    margin-top: 8px;
+    margin-left: 7%;
+    font-size: 20px;
+}
